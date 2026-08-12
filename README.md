@@ -35,7 +35,7 @@ The app will be running at `http://localhost:5173`
 
 ## Live Demo
 
-[Click here to view the live app](YOUR-VERCEL-LINK-HERE)
+[Click here to view the live app](https://todo-app-react-zeta-sandy.vercel.app)
 
 ## Screenshots
 
