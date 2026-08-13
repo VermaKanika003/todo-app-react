@@ -5,3 +5,7 @@
 .todoInputDate {
   width: 100%;
 }
+
+.kv-row > div {
+  margin-bottom:10px;
+}

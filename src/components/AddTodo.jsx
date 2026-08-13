@@ -24,8 +24,8 @@ function AddTodo({ onNewItem }) {
 
   return (
     <div className="container text-center">
-      <div className="row kg-row">
-        <div className="col-6">
+      <div className="row kv-row">
+        <div className="col-12 col-sm-6">
           <input
             type="text"
             placeholder="Enter Todo Here"
@@ -33,13 +33,13 @@ function AddTodo({ onNewItem }) {
             onChange={handleNameChange}
           />
         </div>
-        <div className="col-4">
+        <div className="col-12 col-sm-4">
           <input type="date" value={dueDate} onChange={handleDateChange} />
         </div>
-        <div className="col-2">
+        <div className="col-12 col-sm-2">
           <button
             type="button"
-            className="btn btn-success kg-button"
+            className="btn btn-success kv-button"
             onClick={handleAddButtonClicked}
           >
             ADD
